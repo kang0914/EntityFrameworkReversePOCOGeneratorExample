@@ -42,6 +42,8 @@
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,6 +54,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeFirstFromDatabase\C__RefactorLog.cs" />
+    <Compile Include="CodeFirstFromDatabase\MM_CODE.cs" />
+    <Compile Include="CodeFirstFromDatabase\Model1.cs" />
     <Compile Include="Database1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
